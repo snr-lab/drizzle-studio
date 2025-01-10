@@ -1,0 +1,20 @@
+{
+  "name": "drizzle-studio",
+  "version": "1.0.0",
+  "description": "Drizzle Studio for introspecting database",
+  "scripts": {
+    "pull": "drizzle-kit pull",
+    "start": "drizzle-kit studio"
+  },
+  "author": "Rahul Kundu",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "drizzle-kit": "^0.30.1",
+    "drizzle-orm": "^0.38.3",
+    "pg": "^8.13.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.5"
+  }
+}
